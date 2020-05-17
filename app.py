@@ -18,8 +18,8 @@ app = Flask(__name__)
 config = configparser.ConfigParser()
 config.read("config.ini")
 
-line_bot_api = LineBotApi(config['line_bot']['Channel_Access_Token'])
-handler = WebhookHandler(config['line_bot']['Channel_Secret'])
+line_bot_api = LineBotApi(config['line_bot']['yeWClHzSjXDo5GP+RkpVUSrXfPvmMtlf0aMBGKXrYnR7nFahp6kejv5C3LgQfxqBya4gVJdpOemwKAHVAc75a931ZMuV+UB3HCxEnhc46xAhWFl9kb18fAzhDx6yWk17sOuE6aQkbY9wdRJAJSZruwdB04t89/1O/w1cDnyilFU='])
+handler = WebhookHandler(config['line_bot']['af064e8c91676b333ad4cc418bec7084'])
 client_id = config['imgur_api']['Client_ID']
 client_secret = config['imgur_api']['Client_Secret']
 album_id = config['imgur_api']['Album_ID']
